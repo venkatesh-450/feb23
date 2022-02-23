@@ -1,0 +1,5 @@
+#include<stdio.h>
+void main(){
+enum months{jan,feb=3,mar,april,may,jun,july=20,aug,sep,oct,nov,dec};
+printf("%d,%d,%d,%d",feb,mar,jan,dec);
+}
